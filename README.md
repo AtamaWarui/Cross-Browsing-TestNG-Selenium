@@ -1,5 +1,5 @@
 Scenario for Cross Browsing Testing using TestNG & Selenium,
-with cross-browser testing, we make sure that the site is rendered the same on every browser :
+with cross-browser testing we make sure that the site is rendered the same on every browser :
 - Why cross browser testing ? 
   - Font size mismatch in different browsers
   - JavaScript implementation can be different
