@@ -15,6 +15,32 @@
     </classes>
   </test>
   
+  
+   <test thread-count="5" name="FireFoxTest1">
+	  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="WaitCommands.ImplicitWait"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="FireFoxTest2">
+	  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="WaitCommands.ExplicitWait"/>
+    </classes>
+  </test>
+  
+   <test thread-count="5" name="FireFoxTest3">
+	  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="WaitCommands.fluentwait"/>
+    </classes>
+  </test>
+  
+  
+  
+  
+  
    <test thread-count="5" name="EdgeTest">
 	  <parameter name="browser" value="edge"></parameter>
     <classes>

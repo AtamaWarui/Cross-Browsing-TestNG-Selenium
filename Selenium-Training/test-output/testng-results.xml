@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="1" skipped="2">
+<testng-results ignored="0" total="6" passed="1" failed="3" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-12T10:19:01 EST" name="Suite" finished-at="2024-02-12T10:19:20 EST" duration-ms="18747">
+  <suite started-at="2024-02-18T14:23:56 EST" name="Suite" finished-at="2024-02-18T14:24:59 EST" duration-ms="63237">
     <groups>
     </groups>
-    <test started-at="2024-02-12T10:19:01 EST" name="ChromeTest" finished-at="2024-02-12T10:19:07 EST" duration-ms="5668">
+    <test started-at="2024-02-18T14:23:56 EST" name="ChromeTest" finished-at="2024-02-18T14:24:02 EST" duration-ms="6421">
       <class name="crossbrowser.CrossBrowserTest">
-        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:crossbrowser.CrossBrowserTest@61322f9d]" started-at="2024-02-12T10:19:01 EST" name="initialize" finished-at="2024-02-12T10:19:07 EST" duration-ms="5568" status="FAIL">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:crossbrowser.CrossBrowserTest@61322f9d]" started-at="2024-02-18T14:23:56 EST" name="initialize" finished-at="2024-02-18T14:24:02 EST" duration-ms="6320" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
-Host info: host: 'LAPTOP-SJK6EH97', ip: '169.254.201.247'
+Host info: host: 'LAPTOP-SJK6EH97', ip: '169.254.57.189'
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -26,7 +26,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
-Host info: host: 'LAPTOP-SJK6EH97', ip: '169.254.201.247'
+Host info: host: 'LAPTOP-SJK6EH97', ip: '169.254.57.189'
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -72,11 +72,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="scotiabanklogin()[pri:0, instance:crossbrowser.CrossBrowserTest@61322f9d]" started-at="2024-02-12T10:19:07 EST" name="scotiabanklogin" finished-at="2024-02-12T10:19:07 EST" duration-ms="0" status="SKIP">
+        <test-method signature="scotiabanklogin()[pri:0, instance:crossbrowser.CrossBrowserTest@61322f9d]" started-at="2024-02-18T14:24:02 EST" name="scotiabanklogin" finished-at="2024-02-18T14:24:02 EST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
-Host info: host: 'LAPTOP-SJK6EH97', ip: '169.254.201.247'
+Host info: host: 'LAPTOP-SJK6EH97', ip: '169.254.57.189'
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -84,7 +84,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
-Host info: host: 'LAPTOP-SJK6EH97', ip: '169.254.201.247'
+Host info: host: 'LAPTOP-SJK6EH97', ip: '169.254.57.189'
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -130,15 +130,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scotiabanklogin -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:crossbrowser.CrossBrowserTest@61322f9d]" started-at="2024-02-12T10:19:07 EST" name="endTest" finished-at="2024-02-12T10:19:07 EST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:crossbrowser.CrossBrowserTest@61322f9d]" started-at="2024-02-18T14:24:02 EST" name="endTest" finished-at="2024-02-18T14:24:02 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- crossbrowser.CrossBrowserTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2024-02-12T10:19:07 EST" name="FireFoxTest" finished-at="2024-02-12T10:19:16 EST" duration-ms="8753">
+    <test started-at="2024-02-18T14:24:02 EST" name="FireFoxTest" finished-at="2024-02-18T14:24:10 EST" duration-ms="7584">
       <class name="crossbrowser.CrossBrowserTest">
-        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:crossbrowser.CrossBrowserTest@8c3b9d]" started-at="2024-02-12T10:19:07 EST" name="initialize" finished-at="2024-02-12T10:19:13 EST" duration-ms="5830" status="PASS">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:crossbrowser.CrossBrowserTest@8c3b9d]" started-at="2024-02-18T14:24:02 EST" name="initialize" finished-at="2024-02-18T14:24:06 EST" duration-ms="3848" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,39 +149,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="scotiabanklogin()[pri:0, instance:crossbrowser.CrossBrowserTest@8c3b9d]" started-at="2024-02-12T10:19:13 EST" name="scotiabanklogin" finished-at="2024-02-12T10:19:15 EST" duration-ms="2320" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="scotiabanklogin()[pri:0, instance:crossbrowser.CrossBrowserTest@8c3b9d]" started-at="2024-02-18T14:24:06 EST" name="scotiabanklogin" finished-at="2024-02-18T14:24:08 EST" duration-ms="2307" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '4.5.2', revision: '702c64f787c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f7fb63e-a121-46b1-bb17-ef81165172cd, getTitle {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:19353, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19156, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19353/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6f7fb63e-a121-46b1-bb17-ef81165172cd]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '4.5.2', revision: '702c64f787c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f7fb63e-a121-46b1-bb17-ef81165172cd, getTitle {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:19353, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19156, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19353/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6f7fb63e-a121-46b1-bb17-ef81165172cd
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:315)
-at crossbrowser.CrossBrowserTest.scotiabanklogin(CrossBrowserTest.java:59)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:976)
+at org.testng.Assert.assertEquals(Assert.java:1010)
+at crossbrowser.CrossBrowserTest.scotiabanklogin(CrossBrowserTest.java:61)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -210,29 +191,59 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scotiabanklogin -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:crossbrowser.CrossBrowserTest@8c3b9d]" started-at="2024-02-12T10:19:15 EST" name="endTest" finished-at="2024-02-12T10:19:16 EST" duration-ms="579" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:crossbrowser.CrossBrowserTest@8c3b9d]" started-at="2024-02-18T14:24:08 EST" name="endTest" finished-at="2024-02-18T14:24:10 EST" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- crossbrowser.CrossBrowserTest -->
+    </test> <!-- FireFoxTest -->
+    <test started-at="2024-02-18T14:24:10 EST" name="FireFoxTest1" finished-at="2024-02-18T14:24:19 EST" duration-ms="8950">
+      <class name="WaitCommands.ImplicitWait">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WaitCommands.ImplicitWait@757277dc]" started-at="2024-02-18T14:24:10 EST" name="setUp" finished-at="2024-02-18T14:24:15 EST" duration-ms="4899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUntitled()[pri:0, instance:WaitCommands.ImplicitWait@757277dc]" started-at="2024-02-18T14:24:15 EST" name="testUntitled" finished-at="2024-02-18T14:24:17 EST" duration-ms="2277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUntitled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WaitCommands.ImplicitWait@757277dc]" started-at="2024-02-18T14:24:17 EST" name="tearDown" finished-at="2024-02-18T14:24:19 EST" duration-ms="1769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WaitCommands.ImplicitWait -->
+    </test> <!-- FireFoxTest1 -->
+    <test started-at="2024-02-18T14:24:19 EST" name="FireFoxTest2" finished-at="2024-02-18T14:24:38 EST" duration-ms="19206">
+      <class name="WaitCommands.ExplicitWait">
+        <test-method is-config="true" signature="setup()[pri:0, instance:WaitCommands.ExplicitWait@4c309d4d]" started-at="2024-02-18T14:24:19 EST" name="setup" finished-at="2024-02-18T14:24:27 EST" duration-ms="7953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:WaitCommands.ExplicitWait@4c309d4d]" started-at="2024-02-18T14:24:27 EST" name="test" finished-at="2024-02-18T14:24:37 EST" duration-ms="10071" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[WebDriver session does not exist, or is not active
+              <![CDATA[Unable to locate element: #Email
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f7fb63e-a121-46b1-bb17-ef81165172cd, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:19353, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19156, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19353/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6f7fb63e-a121-46b1-bb17-ef81165172cd]]>
+Command: [b362bc5e-4290-431c-af7c-19a69839bc29, findElement {using=id, value=Email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:4750, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18336, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:4750/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b362bc5e-4290-431c-af7c-19a69839bc29]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #Email
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f7fb63e-a121-46b1-bb17-ef81165172cd, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:19353, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19156, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19353/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6f7fb63e-a121-46b1-bb17-ef81165172cd
+Command: [b362bc5e-4290-431c-af7c-19a69839bc29, findElement {using=id, value=Email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:4750, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18336, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:4750/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b362bc5e-4290-431c-af7c-19a69839bc29
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -241,22 +252,134 @@ at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpRespo
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:105)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at WaitCommands.ExplicitWait.test(ExplicitWait.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- crossbrowser.CrossBrowserTest -->
-    </test> <!-- FireFoxTest -->
-    <test started-at="2024-02-12T10:19:16 EST" name="EdgeTest" finished-at="2024-02-12T10:19:20 EST" duration-ms="4249">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:WaitCommands.ExplicitWait@4c309d4d]" started-at="2024-02-18T14:24:37 EST" name="teardown" finished-at="2024-02-18T14:24:38 EST" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WaitCommands.ExplicitWait -->
+    </test> <!-- FireFoxTest2 -->
+    <test started-at="2024-02-18T14:24:38 EST" name="FireFoxTest3" finished-at="2024-02-18T14:24:56 EST" duration-ms="17870">
+      <class name="WaitCommands.fluentwait">
+        <test-method is-config="true" signature="setup()[pri:0, instance:WaitCommands.fluentwait@1dac5ef]" started-at="2024-02-18T14:24:38 EST" name="setup" finished-at="2024-02-18T14:24:45 EST" duration-ms="6696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:WaitCommands.fluentwait@1dac5ef]" started-at="2024-02-18T14:24:45 EST" name="test" finished-at="2024-02-18T14:24:55 EST" duration-ms="10052" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #Email
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.2', revision: '702c64f787c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0809ceb3-d100-4081-bdac-34c16fdf55d1, findElement {using=id, value=Email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:15319, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14032, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:15319/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0809ceb3-d100-4081-bdac-34c16fdf55d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #Email
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.2', revision: '702c64f787c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0809ceb3-d100-4081-bdac-34c16fdf55d1, findElement {using=id, value=Email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:15319, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14032, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:15319/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0809ceb3-d100-4081-bdac-34c16fdf55d1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at WaitCommands.fluentwait.test(fluentwait.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:WaitCommands.fluentwait@1dac5ef]" started-at="2024-02-18T14:24:55 EST" name="teardown" finished-at="2024-02-18T14:24:56 EST" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WaitCommands.fluentwait -->
+    </test> <!-- FireFoxTest3 -->
+    <test started-at="2024-02-18T14:24:56 EST" name="EdgeTest" finished-at="2024-02-18T14:24:59 EST" duration-ms="3017">
       <class name="crossbrowser.CrossBrowserTest">
-        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:crossbrowser.CrossBrowserTest@1e178745]" started-at="2024-02-12T10:19:16 EST" name="initialize" finished-at="2024-02-12T10:19:20 EST" duration-ms="4195" status="FAIL">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:crossbrowser.CrossBrowserTest@63070bab]" started-at="2024-02-18T14:24:56 EST" name="initialize" finished-at="2024-02-18T14:24:59 EST" duration-ms="2995" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -266,13 +389,13 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </params>
           <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
             <message>
-              <![CDATA[Unable to establish websocket connection to http://localhost:51509/devtools/browser/d508aaed-4179-42e3-9c48-75331af38d48
+              <![CDATA[Unable to establish websocket connection to http://localhost:51983/devtools/browser/0ba73f3b-9789-4356-a905-5cc8f5550b96
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: driver.version: EdgeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:51509/devtools/browser/d508aaed-4179-42e3-9c48-75331af38d48
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:51983/devtools/browser/0ba73f3b-9789-4356-a905-5cc8f5550b96
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: driver.version: EdgeDriver
@@ -315,16 +438,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="scotiabanklogin()[pri:0, instance:crossbrowser.CrossBrowserTest@1e178745]" started-at="2024-02-12T10:19:20 EST" name="scotiabanklogin" finished-at="2024-02-12T10:19:20 EST" duration-ms="0" status="SKIP">
+        <test-method signature="scotiabanklogin()[pri:0, instance:crossbrowser.CrossBrowserTest@63070bab]" started-at="2024-02-18T14:24:59 EST" name="scotiabanklogin" finished-at="2024-02-18T14:24:59 EST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
             <message>
-              <![CDATA[Unable to establish websocket connection to http://localhost:51509/devtools/browser/d508aaed-4179-42e3-9c48-75331af38d48
+              <![CDATA[Unable to establish websocket connection to http://localhost:51983/devtools/browser/0ba73f3b-9789-4356-a905-5cc8f5550b96
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: driver.version: EdgeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:51509/devtools/browser/d508aaed-4179-42e3-9c48-75331af38d48
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:51983/devtools/browser/0ba73f3b-9789-4356-a905-5cc8f5550b96
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: driver.version: EdgeDriver
@@ -367,7 +490,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scotiabanklogin -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:crossbrowser.CrossBrowserTest@1e178745]" started-at="2024-02-12T10:19:20 EST" name="endTest" finished-at="2024-02-12T10:19:20 EST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:crossbrowser.CrossBrowserTest@63070bab]" started-at="2024-02-18T14:24:59 EST" name="endTest" finished-at="2024-02-18T14:24:59 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

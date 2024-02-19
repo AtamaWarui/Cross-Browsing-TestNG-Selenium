@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 12 10:19:07 EST 2024</td>
+<td>Started on:</td><td>Sun Feb 18 14:24:02 EST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8753 ms)</td>
+<tr><td>Total time:</td><td>7 seconds (7584 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,58 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='crossbrowser.CrossBrowserTest.endTest()'><b>endTest</b><br>Test class: crossbrowser.CrossBrowserTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
-Build info: version: &apos;4.5.2&apos;, revision: &apos;702c64f787c&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f7fb63e-a121-46b1-bb17-ef81165172cd, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:19353, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19156, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19353/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6f7fb63e-a121-46b1-bb17-ef81165172cd
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:105)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1399691256", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1399691256'><pre>org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
-Build info: version: &apos;4.5.2&apos;, revision: &apos;702c64f787c&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f7fb63e-a121-46b1-bb17-ef81165172cd, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:19353, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19156, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19353/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6f7fb63e-a121-46b1-bb17-ef81165172cd
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:105)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-</pre></div></td>
-<td>0</td>
-<td>crossbrowser.CrossBrowserTest@8c3b9d</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -129,47 +77,18 @@ Session ID: 6f7fb63e-a121-46b1-bb17-ef81165172cd
 </tr>
 <tr>
 <td title='crossbrowser.CrossBrowserTest.scotiabanklogin()'><b>scotiabanklogin</b><br>Test class: crossbrowser.CrossBrowserTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: &apos;4.5.2&apos;, revision: &apos;702c64f787c&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f7fb63e-a121-46b1-bb17-ef81165172cd, getTitle {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:19353, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19156, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19353/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6f7fb63e-a121-46b1-bb17-ef81165172cd
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:315)
-	at crossbrowser.CrossBrowserTest.scotiabanklogin(CrossBrowserTest.java:59)
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at crossbrowser.CrossBrowserTest.scotiabanklogin(CrossBrowserTest.java:61)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1865289764", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1865289764'><pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: &apos;4.5.2&apos;, revision: &apos;702c64f787c&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f7fb63e-a121-46b1-bb17-ef81165172cd, getTitle {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:19353, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19156, moz:profile: C:\Users\sengc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19353/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6f7fb63e-a121-46b1-bb17-ef81165172cd
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:315)
-	at crossbrowser.CrossBrowserTest.scotiabanklogin(CrossBrowserTest.java:59)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace265939934", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace265939934'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:976)
+	at org.testng.Assert.assertEquals(Assert.java:1010)
+	at crossbrowser.CrossBrowserTest.scotiabanklogin(CrossBrowserTest.java:61)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)

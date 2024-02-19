@@ -55,10 +55,10 @@ public class CrossBrowserTest {
 	
 	public void scotiabanklogin() {
 		
-		driver.get("https://www.scotiabank.com");
+		driver.get("https://mooninjapan.wixsite.com/moonjapan");
 		String actual = driver.getTitle();
-		String expect = "Scotiabank";
-		Assert.assertEquals(actual.contains("Scotiabank"), expect.contains("Scotiabank"));
+		String expect = "Opportunity Consult";
+		Assert.assertEquals(actual.contains("Opportunity Consult"), expect.contains("Opportunity Consult"));
 		
 	}
 	@AfterTest

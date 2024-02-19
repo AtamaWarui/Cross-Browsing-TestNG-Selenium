@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 10 22:49:35 EST 2024</td>
+<td>Started on:</td><td>Sun Feb 18 12:02:57 EST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (80 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (110 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,18 +76,34 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='CrossBrowserTest.initialize()'><b>initialize</b><br>Test class: CrossBrowserTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeTest on method initialize but has not been marked @Optional or defined
-in C:\Users\sengc\AppData\Local\Temp\testng-eclipse--1850739576\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:632)
-	at org.testng.TestRunner.run(TestRunner.java:594)
+<td title='WaitCommands.ImplicitWait.setUp()'><b>setUp</b><br>Test class: WaitCommands.ImplicitWait</td>
+<td><div><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:311)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:99)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at WaitCommands.ImplicitWait.setUp(ImplicitWait.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
@@ -101,18 +117,34 @@ in C:\Users\sengc\AppData\Local\Temp\testng-eclipse--1850739576\testng-customsui
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace681008168", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace681008168'><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeTest on method initialize but has not been marked @Optional or defined
-in C:\Users\sengc\AppData\Local\Temp\testng-eclipse--1850739576\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:632)
-	at org.testng.TestRunner.run(TestRunner.java:594)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1659367709", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1659367709'><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:311)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:99)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at WaitCommands.ImplicitWait.setUp(ImplicitWait.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
@@ -127,8 +159,8 @@ in C:\Users\sengc\AppData\Local\Temp\testng-eclipse--1850739576\testng-customsui
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>-1707623375</td>
-<td>CrossBrowserTest@4e08711f</td></tr>
+<td>0</td>
+<td>WaitCommands.ImplicitWait@43bc63a3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -139,10 +171,10 @@ in C:\Users\sengc\AppData\Local\Temp\testng-eclipse--1850739576\testng-customsui
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='CrossBrowserTest.endTest()'><b>endTest</b><br>Test class: CrossBrowserTest</td>
+<td title='WaitCommands.ImplicitWait.tearDown()'><b>tearDown</b><br>Test class: WaitCommands.ImplicitWait</td>
 <td></td>
 <td>0</td>
-<td>CrossBrowserTest@4e08711f</td></tr>
+<td>WaitCommands.ImplicitWait@43bc63a3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -153,18 +185,34 @@ in C:\Users\sengc\AppData\Local\Temp\testng-eclipse--1850739576\testng-customsui
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='CrossBrowserTest.scotiabanklogin()'><b>scotiabanklogin</b><br>Test class: CrossBrowserTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeTest on method initialize but has not been marked @Optional or defined
-in C:\Users\sengc\AppData\Local\Temp\testng-eclipse--1850739576\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:632)
-	at org.testng.TestRunner.run(TestRunner.java:594)
+<td title='WaitCommands.ImplicitWait.testUntitled()'><b>testUntitled</b><br>Test class: WaitCommands.ImplicitWait</td>
+<td><div><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:311)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:99)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at WaitCommands.ImplicitWait.setUp(ImplicitWait.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
@@ -178,18 +226,34 @@ in C:\Users\sengc\AppData\Local\Temp\testng-eclipse--1850739576\testng-customsui
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace888473870", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace888473870'><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeTest on method initialize but has not been marked @Optional or defined
-in C:\Users\sengc\AppData\Local\Temp\testng-eclipse--1850739576\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:632)
-	at org.testng.TestRunner.run(TestRunner.java:594)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1400856767", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1400856767'><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:311)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:99)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at WaitCommands.ImplicitWait.setUp(ImplicitWait.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
@@ -205,7 +269,7 @@ in C:\Users\sengc\AppData\Local\Temp\testng-eclipse--1850739576\testng-customsui
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>CrossBrowserTest@4e08711f</td></tr>
+<td>WaitCommands.ImplicitWait@43bc63a3</td></tr>
 </table><p>
 </body>
 </html>

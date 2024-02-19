@@ -25,6 +25,30 @@
       </class> <!-- crossbrowser.CrossBrowserTest -->
     </classes>
   </test> <!-- FireFoxTest(failed) -->
+  <test thread-count="5" name="FireFoxTest2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="WaitCommands.ExplicitWait">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- WaitCommands.ExplicitWait -->
+    </classes>
+  </test> <!-- FireFoxTest2(failed) -->
+  <test thread-count="5" name="FireFoxTest3(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="WaitCommands.fluentwait">
+        <methods>
+          <include name="teardown"/>
+          <include name="test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WaitCommands.fluentwait -->
+    </classes>
+  </test> <!-- FireFoxTest3(failed) -->
   <test thread-count="5" name="EdgeTest(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
